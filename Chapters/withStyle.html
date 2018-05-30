@@ -1,0 +1,855 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pharo Book</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+<link href="/Booklet-PharoWithStyle/_support/html/css/font-awesome.min.css" rel="stylesheet">
+<link href="/Booklet-PharoWithStyle/_support/html/css/nucleus.css" rel="stylesheet">
+<link href="/Booklet-PharoWithStyle/_support/html/css/flex.css" rel="stylesheet">
+<link rel="stylesheet" href="/Booklet-PharoWithStyle/_support/html/css/bootstrap.min.css">
+<script src="/Booklet-PharoWithStyle/_support/html/js/jquery-2.x.min.js"></script>
+<script src="/Booklet-PharoWithStyle/_support/html/highlightjs/highlight.pack.js"></script>
+<script src="/Booklet-PharoWithStyle/_support/html/js/highlight-commands.js"></script>
+<meta name="description" content="">
+<meta name="author" content="Stéphane Ducasse">
+  </head>
+  <body>
+    <header>
+  <div class="logo">
+    <a class="baselink" href="/Booklet-PharoWithStyle/">Pharo Book</a>
+  </div>
+  <div class="burger"><a href="javascript:void(0);" style="font-size:15px;">&#9776;</a></div>
+  
+</header>
+<article>
+  <aside>
+    <ul class="menu">
+   		<li data-nav-id="123" class="dd-item">
+    		<a href="/Booklet-PharoWithStyle">
+		       <i class="fa fa-fw fa-home"></i>
+	    	</a>
+        </li>
+
+		
+		  <li class="dd-item  haschildren ">
+			<div>
+			  <a href="/Booklet-PharoWithStyle/Chapters/withStyle.html#general naming conventions">
+					General naming conventions
+			  </a>
+			   <i class="fa fa-angle-right fa-lg category-icon"></i> 
+			</div>
+			  <ul class="dd-item">
+				
+		   	  	<li class="dd-item  haschildren ">
+					<div>
+						<a href="/Booklet-PharoWithStyle/Chapters/withStyle.html#guileline 1: descriptive names">
+							Guileline 1: Descriptive names
+						</a>
+						<i class="fa fa-angle-right fa-lg category-icon"></i>
+					</div>
+
+					<ul class="dd-item">
+							
+						<li class="dd-item">
+							<a href="/Booklet-PharoWithStyle/Chapters/withStyle.html#examples">Examples</a>
+						</li>
+					
+					</ul>						
+				</li>
+				
+		   	  	<li class="dd-item ">
+					<div>
+						<a href="/Booklet-PharoWithStyle/Chapters/withStyle.html#guileline 2:  pay attention to meaning">
+							Guileline 2:  Pay attention to meaning
+						</a>
+						
+					</div>
+
+					<ul class="dd-item">
+					
+					</ul>						
+				</li>
+				
+		   	  	<li class="dd-item ">
+					<div>
+						<a href="/Booklet-PharoWithStyle/Chapters/withStyle.html#guileline 3:  favor simple direct meaning ">
+							Guileline 3:  Favor simple direct meaning 
+						</a>
+						
+					</div>
+
+					<ul class="dd-item">
+					
+					</ul>						
+				</li>
+				
+		   	  	<li class="dd-item ">
+					<div>
+						<a href="/Booklet-PharoWithStyle/Chapters/withStyle.html#guileline 4:  follow domain ">
+							Guileline 4:  Follow domain 
+						</a>
+						
+					</div>
+
+					<ul class="dd-item">
+					
+					</ul>						
+				</li>
+				
+		   	  	<li class="dd-item ">
+					<div>
+						<a href="/Booklet-PharoWithStyle/Chapters/withStyle.html#guileline 5:  shared variables starts with uppercase ">
+							Guileline 5:  Shared variables starts with uppercase 
+						</a>
+						
+					</div>
+
+					<ul class="dd-item">
+					
+					</ul>						
+				</li>
+				
+		   	  	<li class="dd-item ">
+					<div>
+						<a href="/Booklet-PharoWithStyle/Chapters/withStyle.html#guileline 6:  private variables starts with lowercase ">
+							Guileline 6:  Private variables starts with lowercase 
+						</a>
+						
+					</div>
+
+					<ul class="dd-item">
+					
+					</ul>						
+				</li>
+				
+		   	  	<li class="dd-item ">
+					<div>
+						<a href="/Booklet-PharoWithStyle/Chapters/withStyle.html#guideline: class names">
+							Guideline: Class names
+						</a>
+						
+					</div>
+
+					<ul class="dd-item">
+					
+					</ul>						
+				</li>
+				
+			  </ul>
+		  
+		  </li>
+		
+		  <li class="dd-item  haschildren ">
+			<div>
+			  <a href="/Booklet-PharoWithStyle/Chapters/withStyle.html#selectors">
+					Selectors
+			  </a>
+			   <i class="fa fa-angle-right fa-lg category-icon"></i> 
+			</div>
+			  <ul class="dd-item">
+				
+		   	  	<li class="dd-item ">
+					<div>
+						<a href="/Booklet-PharoWithStyle/Chapters/withStyle.html#guideline: selectors as little sentences">
+							Guideline: selectors as little sentences
+						</a>
+						
+					</div>
+
+					<ul class="dd-item">
+					
+					</ul>						
+				</li>
+				
+		   	  	<li class="dd-item ">
+					<div>
+						<a href="/Booklet-PharoWithStyle/Chapters/withStyle.html#guideline: imperative verbs for actions">
+							Guideline: imperative verbs for actions
+						</a>
+						
+					</div>
+
+					<ul class="dd-item">
+					
+					</ul>						
+				</li>
+				
+		   	  	<li class="dd-item ">
+					<div>
+						<a href="/Booklet-PharoWithStyle/Chapters/withStyle.html#guideline: indicate flow">
+							Guideline: Indicate flow
+						</a>
+						
+					</div>
+
+					<ul class="dd-item">
+					
+					</ul>						
+				</li>
+				
+		   	  	<li class="dd-item ">
+					<div>
+						<a href="/Booklet-PharoWithStyle/Chapters/withStyle.html#guideline: use interrogative form for testing">
+							Guideline: Use interrogative form for testing
+						</a>
+						
+					</div>
+
+					<ul class="dd-item">
+					
+					</ul>						
+				</li>
+				
+		   	  	<li class="dd-item ">
+					<div>
+						<a href="/Booklet-PharoWithStyle/Chapters/withStyle.html#guideline: accessors ">
+							Guideline: Accessors 
+						</a>
+						
+					</div>
+
+					<ul class="dd-item">
+					
+					</ul>						
+				</li>
+				
+		   	  	<li class="dd-item ">
+					<div>
+						<a href="/Booklet-PharoWithStyle/Chapters/withStyle.html#guideline: follow conventions and idioms">
+							Guideline: Follow conventions and idioms
+						</a>
+						
+					</div>
+
+					<ul class="dd-item">
+					
+					</ul>						
+				</li>
+				
+		   	  	<li class="dd-item ">
+					<div>
+						<a href="/Booklet-PharoWithStyle/Chapters/withStyle.html#guideline: distinguish class vs. instance selectors">
+							Guideline: Distinguish class vs. instance selectors
+						</a>
+						
+					</div>
+
+					<ul class="dd-item">
+					
+					</ul>						
+				</li>
+				
+			  </ul>
+		  
+		  </li>
+		
+		  <li class="dd-item  haschildren ">
+			<div>
+			  <a href="/Booklet-PharoWithStyle/Chapters/withStyle.html#instance initialization">
+					Instance initialization
+			  </a>
+			   <i class="fa fa-angle-right fa-lg category-icon"></i> 
+			</div>
+			  <ul class="dd-item">
+				
+		   	  	<li class="dd-item ">
+					<div>
+						<a href="/Booklet-PharoWithStyle/Chapters/withStyle.html#guideline: automatic object initialization ">
+							Guideline: Automatic object initialization 
+						</a>
+						
+					</div>
+
+					<ul class="dd-item">
+					
+					</ul>						
+				</li>
+				
+		   	  	<li class="dd-item ">
+					<div>
+						<a href="/Booklet-PharoWithStyle/Chapters/withStyle.html#guideline: no automatic initialize">
+							Guideline: No automatic initialize
+						</a>
+						
+					</div>
+
+					<ul class="dd-item">
+					
+					</ul>						
+				</li>
+				
+		   	  	<li class="dd-item ">
+					<div>
+						<a href="/Booklet-PharoWithStyle/Chapters/withStyle.html#more advanced schema">
+							More advanced schema
+						</a>
+						
+					</div>
+
+					<ul class="dd-item">
+					
+					</ul>						
+				</li>
+				
+			  </ul>
+		  
+		  </li>
+		
+		  <li class="dd-item ">
+			<div>
+			  <a href="/Booklet-PharoWithStyle/Chapters/withStyle.html#understanding class and instance variable">
+					Understanding Class and instance variable
+			  </a>
+			  
+			</div>
+			  <ul class="dd-item">
+				
+			  </ul>
+		  
+		  </li>
+		
+		  <li class="dd-item  haschildren ">
+			<div>
+			  <a href="/Booklet-PharoWithStyle/Chapters/withStyle.html#powerful coding idioms">
+					Powerful coding idioms
+			  </a>
+			   <i class="fa fa-angle-right fa-lg category-icon"></i> 
+			</div>
+			  <ul class="dd-item">
+				
+		   	  	<li class="dd-item ">
+					<div>
+						<a href="/Booklet-PharoWithStyle/Chapters/withStyle.html#guideline: do not query twice for the same objects">
+							Guideline: Do not query twice for the same objects
+						</a>
+						
+					</div>
+
+					<ul class="dd-item">
+					
+					</ul>						
+				</li>
+				
+			  </ul>
+		  
+		  </li>
+		
+		  <li class="dd-item  haschildren ">
+			<div>
+			  <a href="/Booklet-PharoWithStyle/Chapters/withStyle.html#code formatting">
+					Code formatting
+			  </a>
+			   <i class="fa fa-angle-right fa-lg category-icon"></i> 
+			</div>
+			  <ul class="dd-item">
+				
+		   	  	<li class="dd-item ">
+					<div>
+						<a href="/Booklet-PharoWithStyle/Chapters/withStyle.html#guideline:">
+							Guideline:
+						</a>
+						
+					</div>
+
+					<ul class="dd-item">
+					
+					</ul>						
+				</li>
+				
+			  </ul>
+		  
+		  </li>
+		
+		  <li class="dd-item ">
+			<div>
+			  <a href="/Booklet-PharoWithStyle/Chapters/withStyle.html#potential traps">
+					Potential traps
+			  </a>
+			  
+			</div>
+			  <ul class="dd-item">
+				
+			  </ul>
+		  
+		  </li>
+		
+    </ul>
+  </aside>
+
+  <section class="page">
+    
+	<h1>Pharo with Style</h1>
+		
+	<p>
+We are revisiting the general guideline enounced in the great little book called Smalltalk with Style. 
+</p>
+<h2>General naming conventions</h2>
+
+<p>
+Names are important. We will never repeat it enough. 
+A good name is often driven by a domain. These conventions are not cast in stone but they set the fundation of a common culture.
+Avoid underscores and favor camelcase.
+</p>
+<h3>Guileline 1: Descriptive names</h3>
+
+<p>
+Choose descriptive names that capture domain entity unambiguously.
+</p>
+<h4>Examples</h4>
+
+<figure><pre><code>timeOfDay
+not tod</code></pre><figcaption></figcaption></figure>
+
+<figure><pre><code>milliseconds
+not mil</code></pre><figcaption></figcaption></figure>
+
+<figure><pre><code>editMenu
+not eMenu</code></pre><figcaption></figcaption></figure>
+
+
+
+<h3>Guileline 2:  Pay attention to meaning</h3>
+
+<p>
+Non english native speaker often misplaced word qualifier. In english the qualifier is often before the word it qualifies. 
+</p>
+<p class="todo">find a real example</p><figure><pre><code>blueCar</code></pre><figcaption></figcaption></figure>
+
+<figure><pre><code>carBlue</code></pre><figcaption></figcaption></figure>
+
+
+<figure><pre><code>userAssociation</code></pre><figcaption></figcaption></figure>
+<p>
+is an association of users.
+</p>
+<p>
+Compare the three following variables:
+</p>
+<figure><pre><code>sizeToRead
+sizeJustRead
+readSize</code></pre><figcaption></figcaption></figure>
+
+<p>
+From that perspective favor words with unique pronunciation.
+About <code>readSize</code>: does this mean that the size was just read (red) or it is the size to read (reed)?
+</p>
+
+
+<h3>Guileline 3:  Favor simple direct meaning </h3>
+
+<p>
+Some native english writers use often more precise but less common terms. 
+Consider that your software may be read by people from different culture so use 
+simple common terms. 
+</p>
+
+<h3>Guileline 4:  Follow domain </h3>
+
+<p>
+Follow domain and culture of the project. Do not invent your own because you think it is better. 
+Favor regularity over preciseness.
+</p>
+<figure><pre><code>GnatXmlNode
+not GNAT_XML_Object</code></pre><figcaption></figcaption></figure>
+
+<p>
+When representing the XML ada abstract syntax tree in Pharo, we should not follow their naming convention. The name should convey that the class is a abstract syntax tree node hence <code>GnatXmlNode</code> is much better that <code>GnatXmlObject</code>. 
+</p>
+<p>
+In Moose an importer is an object creating FAMIX entities (classes methods....) from the datastructure representing a language usually an Abstract Syntax Tree. 
+Therefore <code>GNATInstaller</code> which creates entities from AST should be renamed <code>GnatImporter</code>
+and <code>GNATImporter</code> which load AST in memory should be renamed <code>GnatASTLoader</code>
+</p>
+<h3>Guileline 5:  Shared variables starts with uppercase </h3>
+
+<p>
+Begin class names, global variables, pool variables and class variables with an uppercase letter. If the word is compound, then begin use camel case for the rest.
+</p>
+
+<figure><pre><code>Point	&quot;class&quot;
+Transcript 	&quot;global variable&quot;
+PackageGlobalOrganizer	&quot;class variables&quot;</code></pre><figcaption></figcaption></figure>
+
+
+
+
+<h3>Guileline 6:  Private variables starts with lowercase </h3>
+
+<p>
+Beging instance variables, temporary variables, method parameterr and method selectors with a lower case. If the word is compound, then begin use camel case for the rest.
+</p>
+<figure><pre><code>address
+classExtensionSelectors
+classTags</code></pre><figcaption></figcaption></figure>
+
+
+
+<h3>Guideline: Class names</h3>
+
+
+
+
+
+<h2>Selectors</h2>
+<p>
+Method names in Pharo are called selectors. There are used in messages and are the main vehicule to convey adequate meaning. The correct use of words and design of selectors is important. 
+</p>
+
+<h3>Guideline: selectors as little sentences</h3>
+<p>
+Choose method names so that someone reading the message can read the expression as if it were a sentence. 
+</p>
+<figure><pre><code>FileDescriptor seekTo: word from: self position
+and not
+FileDescriptor lseek: word at: self position</code></pre><figcaption></figcaption></figure>
+
+<p>
+Write test first and make sure that your test scenario read well. 
+</p>
+<h3>Guideline: imperative verbs for actions</h3>
+
+<p>
+Use imperative verbs for message which perform an action.
+</p>
+
+<figure><pre><code>transform
+	selectors do: [:each | self pushDown: each].
+	selectors do: [:each | class removeMethod: each]</code></pre><figcaption></figcaption></figure>
+
+<figure><pre><code>aReadStream peek
+and not aReadStream word</code></pre><figcaption></figcaption></figure>
+
+<figure><pre><code>skipSeparators</code></pre><figcaption></figcaption></figure>
+
+<p>
+Pay attention that some word can be interpreted as interrogative while you want to give them an imperative meaning. For example compare
+</p>
+<figure><pre><code>optimized</code></pre><figcaption></figcaption></figure>
+
+<p>
+and
+</p>
+<figure><pre><code>triggerOptimization</code></pre><figcaption></figcaption></figure>
+
+<h3>Guideline: Indicate flow</h3>
+
+<p>
+When state, process is going from one object to another one, indicate the direction using meaningful names.
+</p>
+<p>
+For example <code>flattenProperties:</code> is not a good name because it does not convey where the properties will be flattened.
+</p><figure><pre><code>aConfiguration flattenProperties: aDictionary</code></pre><figcaption></figcaption></figure>
+
+<p>
+Better names such <code>flattenPropertiesFrom:</code> and <code>flattenPropertiesInto:</code> are much better because there is no ambiquities.
+</p>
+<figure><pre><code>aConfiguration flattenPropertiesFrom: aDictionary
+aConfiguration flattenPropertiesInto: aDictionary</code></pre><figcaption></figcaption></figure>
+
+
+<h3>Guideline: Use interrogative form for testing</h3>
+<p>
+Use an interrogating the state of an object, use a selector beginning with a verb such as <code>has</code>, <code>is</code>, <code>does</code>,...
+</p>
+<figure><pre><code>isAtLineEnd</code></pre><figcaption></figcaption></figure>
+<p>
+and not 
+</p><figure><pre><code>atLineEnd</code></pre><figcaption></figcaption></figure>
+
+<h3>Guideline: Accessors </h3>
+
+
+<p>
+For accessors: 
+</p>
+<figure><pre><code>tiles
+	^ tiles </code></pre><figcaption></figcaption></figure>
+<p>
+or 
+</p>
+<figure><pre><code>tiles
+	^ tiles ifNil: [ tiles := OrderedCollection new ]</code></pre><figcaption></figcaption></figure>
+
+<p>
+but not 
+</p><figure><pre><code>getTiles
+	^ tiles</code></pre><figcaption></figcaption></figure>
+
+<p>
+For Setters
+</p><figure><pre><code>tiles: aCollection
+	tiles := aCollection </code></pre><figcaption></figcaption></figure>
+
+
+<h3>Guideline: Follow conventions and idioms</h3>
+
+<p>
+When designing new objects, you may mimic some practices that the system use already with for example dictionaries, sets,...
+</p>
+<p>
+<strong>Example.</strong>
+Since a stylesheet acts as a dictionary of properties it is much better to use
+<code>at:</code> instead of <code>get:</code> especially when the message to set a value to a property is <code>at:put:</code> and not <code>set:</code>.
+</p>
+<figure><pre><code>stylesheet at: #fontColor</code></pre><figcaption></figcaption></figure>
+<p>
+and not 
+</p><figure><pre><code>stylesheet get: #fontColor</code></pre><figcaption></figcaption></figure>
+
+
+
+<h3>Guideline: Distinguish class vs. instance selectors</h3>
+
+<p>
+When defining a class method, we may name it the same way than an accessor of the class. Such practice hampers code readibility in the sense that identifying rapidly class methods is then difficult. The senders will report both the instance and class usage. You may think that you will identify the message because the receiver is a class or an instance but there are many situations were this is not the case. So better enriched the class method with a distinct word.
+</p>
+
+
+<p>
+<strong>Example.</strong>
+In Pillar, annotations have parameters and the accessor method <code>parameters:</code>. Now some version defined also the instance creation method with the same name.
+</p>
+<p>
+The following code that it was difficult to understand fast the code. Reading the code of the parser, it is not clear whether array second is a class or an instance.
+</p>
+<figure><pre><code>annotation
+	^ super annotation
+		==&gt;
+			[ :array | array second parameters: (array third ifNil: [ SmallDictionary new ]) ]</code></pre><figcaption></figcaption></figure>
+
+<p>
+To create an instance is better to name the method <code>withParameter:</code>. This way we can immediatelly spot that the second element is a class. 
+</p>
+<figure><pre><code>annotation
+	^ super annotation
+		==&gt;
+			[ :array | array second withParameters: (array third ifNil: [ SmallDictionary new ]) ]</code></pre><figcaption></figcaption></figure>
+
+
+<figure><pre><code>PRAbstractAnnotation class &gt;&gt; withParameters: aCollection
+	| parameters |
+	parameters := self checkKeysOf: aCollection.
+	^ self new
+		hadAllKeys: aCollection = parameters;
+		parameters: parameters;
+		yourself</code></pre><figcaption></figcaption></figure>
+
+<p>
+is better than
+</p>
+<figure><pre><code>PRAbstractAnnotation class &gt;&gt; parameters: aCollection
+	| parameters |
+	parameters := self checkKeysOf: aCollection.
+	^ self new
+		hadAllKeys: aCollection = parameters;
+		parameters: parameters;
+		yourself</code></pre><figcaption></figcaption></figure>
+<p>
+	
+</p><h2>Instance initialization</h2>
+
+
+
+<h3>Guideline: Automatic object initialization </h3>
+
+
+<figure><pre><code>Game &gt;&gt; initialize
+	super initialize.
+	turn := 0.</code></pre><figcaption></figcaption></figure>
+
+
+<h3>Guideline: No automatic initialize</h3>
+
+<p>
+When you do not want to get the automatic initialization to happen you should use the message <code>basicNew</code> on the class side and create your own <code>initializeSomething:</code> method. 
+</p>
+
+<figure><pre><code>Game class &gt;&gt; tilesNumber: aNumber
+	^ self basicNew initializeNumber: aNumber ; yourself</code></pre><figcaption></figcaption></figure>
+
+<figure><pre><code>Game &gt;&gt; initializeNumber: aNumber
+	tiles := Array new: aNumber</code></pre><figcaption></figcaption></figure>
+
+<h3>More advanced schema</h3>
+
+<p>
+You should  not use <code>new</code> instead of <code>basicNew</code> as this would result in the designated constructor of the superclass being called twice. For example:
+</p><figure><pre><code>Person &gt;&gt; initializeWithFoo: aNumber bar: aString
+		self initialize.
+		foo := aNumber.
+		bar := aString</code></pre><figcaption></figcaption></figure>
+
+<figure><pre><code>Person class &gt;&gt; foo: aNumber bar: aString
+	^ self basicNew
+		initializeWithFoo: aNumber bar: aString;
+		yourself</code></pre><figcaption></figcaption></figure>
+
+<h2>Understanding Class and instance variable</h2>
+
+
+<ul>
+<li>instance-variable: A variable that holds the private state of an object.  In Pharo, these can only be accessed by instance-methods. </li>
+</ul>
+
+<ul>
+<li>class-variable: An attribute of a class that is shared by that class,  its subclasses, and  all  instances  of  those  classes.  Can  be  accessed  by  both  instance-methods and class-methods. </li>
+</ul>
+
+<ul>
+<li>class-instance-variable:  An attribute  of a class that  is not shared outside that specific class. Only the definition is inherited by subclasses, not the value.   Each subclass has its own private value.  Accessible only by class-methods. </li>
+</ul>
+
+<p>
+Example: 
+We will experiment with three different variables
+</p><ul>
+<li>ivCounter - instance variable counter </li>
+<li>CVCounter - class variable counter </li>
+<li>CIVCounter - class instance variable counter </li>
+</ul>
+
+<figure><pre><code>Object subclass: #UnderstandCounter 
+    instanceVariableNames: 'ivCounter iName' 
+    classVariableNames: 'CVCounter' 
+    package: 'MyExamples' </code></pre><figcaption></figcaption></figure>
+<figure><pre><code>UnderstandCounter class  &quot;accessed by clicking the &lt;Class&gt; button&quot; 
+    instanceVariableNames: 'CIVCounter' </code></pre><figcaption></figcaption></figure>
+<figure><pre><code>UnderstandCounter subclass: #UnderstandSubCounter 
+    instanceVariableNames: '' 
+    classVariableNames: '' 
+    package: 'MyExamples' </code></pre><figcaption></figcaption></figure>
+
+<figure><pre><code>UnderstandCounter &gt;&gt; next 
+    ivCounter ifNil: [ ivCounter := 0 ]. 
+    CVCounter ifNil: [ CVCounter := 0 ]. 
+    ivCounter := ivCounter + 1. 
+    CVCounter := CVCounter + 1. </code></pre><figcaption></figcaption></figure>
+
+<figure><pre><code>UnderstandCounter &gt;&gt; printOn: aStream 
+    super printOn: aStream. 
+    aStream nextPutAll: ' ['. 
+    aStream 
+        print: iName.
+    aStream nextPutAll: '] ( '.
+    aStream
+        nextPutAll: ' ivCounter=';
+        print: ivCounter.
+    aStream
+        nextPutAll: ', CIVCounter=n/a'.
+    aStream
+        nextPutAll: ', CVCounter=';
+        print: CVCounter.
+    aStream nextPutAll: ' )'.</code></pre><figcaption></figcaption></figure>
+
+
+<figure><pre><code>UnderstandCounter class &gt;&gt; next2
+    CIVCounter ifNil: [ CIVCounter := 0 ].
+    CVCounter ifNil: [ CVCounter := 0 ].
+
+    CIVCounter := CIVCounter + 1.
+    CVCounter := CVCounter + 1.</code></pre><figcaption></figcaption></figure>
+
+<figure><pre><code>UnderstandCounter class &gt;&gt; printOn: aStream 
+    super printOn: aStream.
+    aStream nextPutAll: ' ( '.
+    aStream
+        nextPutAll: 'ivCounter=n/a'.
+    aStream
+        nextPutAll: ', CIVCounter=';
+        print: CIVCounter.
+    aStream
+        nextPutAll: ', CVCounter=';
+        print: CVCounter.
+    aStream nextPutAll: ' )'.</code></pre><figcaption></figcaption></figure>
+
+<figure><pre><code>UnderstandCounter class &gt;&gt; reset 
+    CVCounter := nil.
+    CIVCounter := nil.</code></pre><figcaption></figcaption></figure>
+
+<p>
+Then from Workspace evaluate these...
+</p><figure><pre><code>tc1 := UnderstandCounter new.
+tc2 := UnderstandCounter new.
+
+tsc1 := TestSubCounter new.
+tsc2 := TestSubCounter new.
+
+TestCounter reset.
+TestSubCounter reset.
+
+tc1 next.
+tc2 next.
+tc1 next.
+tc2 next.
+
+tsc1 next.
+tsc2 next.
+tsc1 next.
+tsc2 next.
+
+TestCounter next2.
+TestCounter next2.
+TestCounter next2.
+
+TestSubCounter next2.
+TestSubCounter next2.
+TestSubCounter next2.</code></pre><figcaption></figcaption></figure>
+
+
+
+
+<h2>Powerful coding idioms</h2>
+
+<h3>Guideline: Do not query twice for the same objects</h3>
+
+<p>
+The message <code>ifNotNil:</code> expects a block 
+</p>
+<figure><pre><code>self doThat ifNotNil: [ :that | self doSomethingWith: that ]</code></pre><figcaption></figcaption></figure>
+
+<figure><pre><code>| that |
+that := self doThat.
+that ifNotNil: [self doSomethingWith: that]</code></pre><figcaption></figcaption></figure>
+
+<p>
+Similarly have a look at the messages containing the <code>ifPresent:</code> variation.
+</p><figure><pre><code>	aCol at: key ifPresent: [ :present | self doSomethingWith: present]</code></pre><figcaption></figcaption></figure>
+
+<h2>Code formatting</h2>
+
+<h3>Guideline:</h3>
+
+<h2>Potential traps</h2>
+
+
+
+
+  </section>
+
+</article>
+
+<footer>
+
+<div class="footline">
+    <div class="github-link">
+      <a href="" target="blank"><i class="fa fa-code-fork"></i>Github</a>
+    </div>
+  </div>
+</footer>
+
+<script src="/Booklet-PharoWithStyle/_support/html/js/clipboard.min.js"></script>
+
+
+<link rel="stylesheet" href="/Booklet-PharoWithStyle/_support/html/highlightjs/styles/default.css">
+<link rel="stylesheet" href="/Booklet-PharoWithStyle/_support/html/css/highlight-commands.css">
+<link href="/Booklet-PharoWithStyle/_support/html/css/featherlight.min.css" rel="stylesheet">
+<script src="/Booklet-PharoWithStyle/_support/html/js/featherlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<script src="/Booklet-PharoWithStyle/_support/html/js/flex.js"></script>
+<!-- Prettify annotated paragraphs-->
+    <script src="/Booklet-PharoWithStyle/_support/html/js/annotated-paragraphs.js"></script>
+
+  </body>
+</html>
